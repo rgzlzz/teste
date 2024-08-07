@@ -1,0 +1,73 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+<style>
+    body {
+        background-color: orange;
+    }
+    h1 {
+        color: white;
+        text-align: center;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: xxx-large;
+    }
+    h2 {
+        color: white;
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    p {
+        color: lemonchiffon;
+        text-align: center;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size:x-large;
+    }
+    form {
+        text-align: center;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: large;
+        color: lemonchiffon;
+    }
+    
+</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    <br>
+    <h1>Natura Dias D'Ávila</h1> 
+    <h2> Seja bem-vindo(a) a loja mais cheirosa da cidade!</h2>
+    <p> Fazer cadastro</p>
+    <form action="teste.jsp" method="post">
+        CPF: <input type="text"> <br>
+        <br>
+       Nome completo: <input type="text" name="nome "> <br> 
+       <br>
+        Gênero: 
+        <input type="radio" name="Gênero" value="F" checked> Feminino
+        <input type="radio" name="Gênero" value="M"> Masculino
+        <input type="radio" name="Gênero" value="N"> Neutro
+    <br>
+    <br>
+    Data de Nascimento: <input type="date" name="" id="">
+<br>
+<br>
+        Telefone: <select name="DDD">
+            <option>71</option>
+            <option>75</option>
+            <option>74</option>
+        </select>
+        <input type="text">
+        <br>
+        <br>
+        <input type="checkbox" name="atualizaçções" value="sim"> Quero receber alertas de promoções via Whatsapp e ficar por dentro de todas as novidades!
+        <br>
+        <br>
+        <input type="submit">
+        <br>
+        <br>
+        <img src="logonatura-removebg-preview.png" width="100">
+    </form>
+</body>
+</html>
